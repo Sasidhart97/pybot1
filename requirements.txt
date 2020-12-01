@@ -1,5 +1,5 @@
 botbuilder
-botbuilder-core>=4.7.0
+botbuilder-core
 aiohttp
 torch
 sentence_transformers
