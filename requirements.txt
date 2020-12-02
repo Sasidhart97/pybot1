@@ -1,4 +1,8 @@
 botbuilder
 botbuilder-core
 aiohttp
-sentence_transformers
+pandas
+numpy
+scipy
+re
+nltk
