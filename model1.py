@@ -27,7 +27,9 @@ def models(text1,message):
         #warnings.filterwarnings("ignore")
         #model = SentenceTransformer('distilbert-base-nli-stsb-mean-tokens')
         def clean_text(text):
-            
+            que=pd.read_excel("questionnare.xlsx")
+            corpus=list(que["Question"])
+            solution=list(que["Answer"])
             stopwords_english = stopwords.words('english')
             stopwords_english=list(stopwords_english)
             #print(stopwords_english)
@@ -39,5 +41,5 @@ def models(text1,message):
                 if (word not in stopwords_english):
                     #print(word)
                     ct.append(word.lower())
-            return ' '.join(ct)
+            return ' '.join(ct)+" "+solution[-1]
         return clean_text(text1)
