@@ -3,7 +3,7 @@
 
 from botbuilder.core import ActivityHandler, TurnContext
 from botbuilder.schema import ChannelAccount
-import torch
+#import torch
 from model1 import models
 #from sentence_transformers import SentenceTransformer, util
 #saved_model = SentenceTransformer('distilbert-base-nli-stsb-mean-tokens')
