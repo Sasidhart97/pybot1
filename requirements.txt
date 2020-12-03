@@ -1,7 +1,2 @@
-botbuilder
-botbuilder-core
+botbuilder-core>=4.7.0
 aiohttp
-pandas
-numpy
-scipy
-nltk
