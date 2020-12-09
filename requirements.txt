@@ -1,2 +1,6 @@
 botbuilder-core>=4.7.0
 aiohttp
+email-to
+numpy
+pandas
+gensim
