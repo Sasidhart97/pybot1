@@ -8,9 +8,9 @@ def psf(text1,corps1,solution,model):
         from email.mime.text import MIMEText
         from email.mime.multipart import MIMEMultipart
 
-        email = 'sasidharturaga@gmail.com' # the email where you sent the email
-        password = 'felixsasi1997'
-        send_to_email = "turaga.sasidhar@metro-services.in" # for whom
+        email = '' # the email where you sent the email
+        password = ''
+        send_to_email = "" # for whom
         subject = "Query from chatbot"
         if(len(text1.split("-"))>1):
             message = text1.split("-")[1]
